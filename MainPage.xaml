@@ -14,20 +14,9 @@
             <Entry x:Name="textInput" 
                    Placeholder="Enter text" 
                    TextChanged="OnEntryTextChanged" />
-            
-            
-            <!--<Entry 
-                x:Name="textInput3"
-                Placeholder="Enter text"
-                Completed="OnEntryCompleted"
-                TextChanged="OnEntryTextChanged" />-->
 
-            <!--<Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />-->
+            <Label x:Name="HelpText"/>
+
 
         </VerticalStackLayout>
     </ScrollView>
